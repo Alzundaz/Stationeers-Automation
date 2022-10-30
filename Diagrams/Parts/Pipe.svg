@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="240" height="240" style="background: whitesmoke;">
+  <title>Pipe</title>
+  <desc>Pipe catalog</desc>
+  <defs>
+    <g id="Pipe">
+      <style type="text/css">
+        <![CDATA[
+          .pipe { fill: yellow; }
+        ]]>
+      </style>
+      <g id="simple">
+        <path id="pipe-simple-13" class="pipe" d="M 20 00 L 20 60 L 40 60 L 40 00 Z" />
+        <path id="pipe-simple-24" class="pipe" d="M 00 20 L 60 20 L 60 40 L 00 40 Z" />
+
+        <path id="pipe-simple-12" class="pipe" d="M 20 00 Q 20 40 60 40 L 60 20 Q 40 20 40 00 Z"/>
+        <path id="pipe-simple-23" class="pipe" d="M 60 20 Q 20 20 20 60 L 40 60 Q 40 40 60 40 Z"/>
+        <path id="pipe-simple-34" class="pipe" d="M 40 60 Q 40 20 00 20 L 00 40 Q 20 40 20 60 Z"/>
+        <path id="pipe-simple-14" class="pipe" d="M 00 40 Q 40 40 40 00 L 20 00 Q 20 20 00 20 Z"/>
+
+        <path id="pipe-simple-123" class="pipe" d="M 20 00 L 20 60 L 40 60 L 40 40 L 60 40 L 60 20 L 40 20 L 40 00 Z"/>
+        <path id="pipe-simple-234" class="pipe" d="M 00 20 L 60 20 L 60 40 L 40 40 L 40 60 L 20 60 L 20 40 L 00 40 Z"/>
+        <path id="pipe-simple-134" class="pipe" d="M 40 00 L 40 60 L 20 60 L 20 40 L 00 40 L 00 20 L 20 20 L 20 00 Z"/>
+        <path id="pipe-simple-124" class="pipe" d="M 00 40 L 60 40 L 60 20 L 40 20 L 40 00 L 20 00 L 20 20 L 00 20 Z"/>
+
+        <path id="pipe-simple-1234" class="pipe" d="M 20 00 L 20 20 L 00 20 L 00 40 L 20 40 L 20 60 L 40 60 L 40 40 L 60 40 L 60 20 L 40 20 L 40 00 Z"/>
+      </g>
+    </g>
+  </defs>
+
+  <use href="#pipe-simple-13" x="0" y="0" />
+  <use href="#pipe-simple-24" x="60" y="0" />
+
+  <use href="#pipe-simple-12" x="0" y="60" />
+  <use href="#pipe-simple-23" x="60" y="60" />
+  <use href="#pipe-simple-34" x="120" y="60" />
+  <use href="#pipe-simple-14" x="180" y="60" />
+
+  <use href="#pipe-simple-123" x="0" y="120" />
+  <use href="#pipe-simple-234" x="60" y="120" />
+  <use href="#pipe-simple-134" x="120" y="120" />
+  <use href="#pipe-simple-124" x="180" y="120" />
+
+  <use href="#pipe-simple-1234" x="0" y="180" />
+
+</svg>

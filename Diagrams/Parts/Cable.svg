@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="240" height="240" style="background: whitesmoke;">
+  <title>Cable</title>
+  <desc>Cable catalog</desc>
+  <defs>
+    <g id="Cable">
+      <style type="text/css">
+        <![CDATA[
+          .cable { fill: transparent; stroke: red; stroke-width: 5; }
+          .cable-data { stroke: green; }
+        ]]>
+      </style>
+      <g id="simple">
+        <path id="cable-simple-13" class="cable" d="M 30 00 L 30 60" />
+        <path id="cable-simple-24" class="cable" d="M 00 30 L 60 30" />
+
+        <path id="cable-simple-12" class="cable" d="M 30 00 Q 30 30 60 30"/>
+        <path id="cable-simple-23" class="cable" d="M 60 30 Q 30 30 30 60"/>
+        <path id="cable-simple-34" class="cable" d="M 30 60 Q 30 30 00 30"/>
+        <path id="cable-simple-14" class="cable" d="M 00 30 Q 30 30 30 00"/>
+
+        
+        <path id="cable-simple-123" class="cable" d="M 30 00 L 30 60 Q 30 30 60 30 Q 30 30 30 00"/>
+        <path id="cable-simple-234" class="cable" d="M 60 30 L 00 30 Q 30 30 30 60 Q 30 30 60 30"/>
+        <path id="cable-simple-134" class="cable" d="M 30 60 L 30 00 Q 30 30 00 30 Q 30 30 30 60"/>
+        <path id="cable-simple-124" class="cable" d="M 00 30 L 60 30 Q 30 30 30 00 Q 30 30 00 30"/>
+
+        <path id="cable-simple-1234" class="cable" d="M 00 30 L 60 30 Q 30 30 30 00 Q 30 30 00 30 Q 30 30 30 60 Q 30 30 60 30"/>
+      </g>
+    </g>
+  </defs>
+
+  <use href="#cable-simple-13" x="0" y="0" />
+  <use href="#cable-simple-24" x="60" y="0" />
+
+
+  <use href="#cable-simple-12" x="0" y="60" />
+  <use href="#cable-simple-23" x="60" y="60" />
+  <use href="#cable-simple-34" x="120" y="60" />
+  <use href="#cable-simple-14" x="180" y="60" />
+
+  <use href="#cable-simple-123" x="0" y="120" />
+  <use href="#cable-simple-234" x="60" y="120" />
+  <use href="#cable-simple-134" x="120" y="120" />
+  <use href="#cable-simple-124" x="180" y="120" />
+
+  <use href="#cable-simple-1234" x="0" y="180" />
+
+</svg>
