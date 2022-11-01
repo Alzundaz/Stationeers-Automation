@@ -10,18 +10,22 @@
 - Diagrams use a grid of 4 elements per cell. Each element has a size of 60x60 pixels. A cell represent the size of a block in the game.
 - Diagrams has a background color of `#f5f5f5` aka `whitesmoke`.
 - Each part of the diagram is in a group or sorrounded by a comment with the name of the part (eg. `<!-- Cable start -->` and `<!-- Cable end -->`).
-- Cables and Pipes are named relative to their connection to nearby elements (eg. `cable-simple-123` is a simple cable connected to the points 1, 2 and 3). Numbers denote their clockwise position (1 is the top, 2 is the right, 3 is the bottom and 4 is the left).
-- Pipes respect a precise color.
 
 ### Connection
-[Link](./Diagrams/Connection.svg)
+
+Cables and Pipes are named relative to their connection to nearby elements (eg. `cable-simple-123` is a simple cable connected to the points 1, 2 and 3). Numbers denote their clockwise position (1 is the top, 2 is the right, 3 is the bottom and 4 is the left).
 
 ![Connection Diagram](./Diagrams/Connection.svg)
 
 ### Color
-[Link](./Diagrams/Color.svg)
 
-![Color Diagram](./Diagrams/Color.svg)
+Pipes respect a precise color according to the gas they carry.
+
+![Pipe Color Diagram](./Diagrams/PipeColor.svg)
+
+Cables respect a precise color according to their utility.
+
+![Cable Color Diagram](./Diagrams/CableColor.svg)
 
 ## Documentations
 
